@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037072974465",
+    "project_id": "gdg-app-f728e",
+    "storage_bucket": "gdg-app-f728e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037072974465:android:07218b521c68b7d2c50380",
+        "android_client_info": {
+          "package_name": "com.example.gdg_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARGGFWRh2yQYOLlfNFndPWPq5yraKz7ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
