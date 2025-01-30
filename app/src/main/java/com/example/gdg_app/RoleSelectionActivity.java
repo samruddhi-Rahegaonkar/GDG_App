@@ -37,12 +37,12 @@ public class RoleSelectionActivity extends AppCompatActivity {
 
         // On click listeners for Admin and Student buttons
         btnAdmin.setOnClickListener(view -> {
-            Intent intent=new Intent(RoleSelectionActivity.this, AdminActivity.class);
+            Intent intent=new Intent(RoleSelectionActivity.this, AdminCategoryActivity.class);
             startActivity(intent);
         });
 
         btnStudent.setOnClickListener(view -> {
-            Intent intent=new Intent(RoleSelectionActivity.this, StudentActivity.class);
+            Intent intent=new Intent(RoleSelectionActivity.this, AdminCategoryActivity.class);
             startActivity(intent);
         });
     }

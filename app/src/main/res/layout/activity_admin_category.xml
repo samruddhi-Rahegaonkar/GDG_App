@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Quiz Category"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/category_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C Programming"
+        android:textSize="18sp"
+        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/category_cpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ Programming"
+        android:textSize="18sp"
+        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/category_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="18sp"
+        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"/>
+
+</LinearLayout>
